@@ -1,0 +1,8 @@
+#number-extraction-using-string-slicing-and-finnd-method
+#6.5 Write code using find() and string slicing (see section 6.10) to extract the number at the end o
+
+
+text = "X-DSPAM-Confidence:    0.8475";
+Find=text.find('0.8475')
+pos=text[Find:Find+7]
+print(float(pos))
