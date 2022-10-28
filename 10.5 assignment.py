@@ -9,6 +9,7 @@ count=dict()
 for line in handle:
     if not line.startswith("From "):
         continue
+        a=0
     else:
         
         line=line.split()
@@ -16,7 +17,7 @@ for line in handle:
         line=line[0:2]
         count[line]=count.get(line,0)+1
 for k,v in sorted(count.items()):
-        print(k,v)
+        print("The items are: ",k,v)
         
     
     
