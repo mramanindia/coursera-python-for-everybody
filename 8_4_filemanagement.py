@@ -6,8 +6,10 @@ fh = open('romeo.txt')
 lst = list()
 for line in fh:
     word=line.rstrip()
+    #for strinpping the line
     word=line.split()
     for element in word:
+        # Checking the elements or character in words
         if(element not in lst):
             lst.append(element)
 lst.sort()
