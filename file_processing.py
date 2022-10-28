@@ -7,5 +7,7 @@ count = 0
 for line in fh:
     print(line.strip())
     count = count + 1
+    # COunting the lines
 
 print(count,"Lines")
+#Printing the lines
