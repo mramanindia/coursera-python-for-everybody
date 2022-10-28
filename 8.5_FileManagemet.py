@@ -10,8 +10,9 @@ for line in fname:
     line.rstrip()
     if not line.startswith("From "):  continue
     word=line.split()
-    print(word[1])
+    print(word[1]) #Printing line 1
     count=count+1
+    ##Counter
 
         
 print("There were",count, "lines in the file with From as the first word")
