@@ -8,3 +8,5 @@ for line in fh:
     hello=line.rstrip()
     lol=hello.upper()
     print(lol)
+    
+    #Simple reading the text in python
