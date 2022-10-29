@@ -11,13 +11,14 @@ for line in handle:
         continue
         a=0
     else:
-        
+        #Splitting the line for slicing
         line=line.split()
         line=line[5]
         line=line[0:2]
         count[line]=count.get(line,0)+1
 for k,v in sorted(count.items()):
         print("The items are: ",k,v)
+        #printing and done
         
     
     
