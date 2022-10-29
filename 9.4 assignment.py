@@ -8,10 +8,13 @@ fname=open("mbox-short.txt") #for getting the data from file
 counts=dict()
 List=list()
 for line in fname: #fetching the dat from file
-    if line.startswith("From "):#checking the line starts with from
+    if line.startswith("From "):
+        #checking the line starts with from
         
-        line=line.split() #spliting the line which starts with  from
-        List.append(line[1]) #now appending the email in a list
+        line=line.split() 
+        #spliting the line which starts with  from
+        List.append(line[1]) 
+        #now appending the email in a list
 #now checking the count of words and storing in a dictionary 
 for word in List:
     counts[word]=counts.get(word,0)+1
