@@ -9,11 +9,12 @@ for line in fh:
     #for strinpping the line
     word=line.split()
     for element in word:
-        # Checking the elements or character in words
+        # Checking the elements or character in words for further use and printing
         if(element not in lst):
             lst.append(element)
 lst.sort()
 print(lst)
+#Printing the list of words
     
 
 
