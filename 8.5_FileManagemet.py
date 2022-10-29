@@ -12,7 +12,7 @@ for line in fname:
     word=line.split()
     print(word[1]) #Printing line 1
     count=count+1
-    ##Counter
+    ##Counter for counting the values
 
         
 print("There were",count, "lines in the file with From as the first word")
