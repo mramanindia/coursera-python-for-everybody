@@ -1,4 +1,4 @@
 # coursera-python-for-everybody
 Assignments of Python for everybody(Python Data structure)
 
-This repo contains the practise files from the course
+This repo contains the practise files from the course of coursera, Python for everybody
