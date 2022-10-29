@@ -10,4 +10,4 @@ for line in fh:
     # COunting the lines with the diffinite value
 
 print(count,"Lines")
-#Printing the lines
+#Printing the lines with counts
