@@ -9,4 +9,4 @@ for line in fh:
     lol=hello.upper()
     print(lol)
     
-    #Simple reading the text in python
+    #Simple reading the text in python with few lines of code
