@@ -6,3 +6,4 @@ text = "X-DSPAM-Confidence:    0.8475";
 Find=text.find('0.8475') ## Finding text in the  given text
 pos=text[Find:Find+7]
 print(float(pos))
+#printing the position
